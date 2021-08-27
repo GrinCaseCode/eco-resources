@@ -1824,7 +1824,7 @@ border-radius: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	text-align: center; 
 	font-size: 30px;
 	color: #999999;
 	background-image: none !important;
