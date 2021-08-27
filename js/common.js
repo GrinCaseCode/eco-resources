@@ -28,6 +28,18 @@ $(".item-question__head").click(function() {
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
+$(".more-services").click(function(e) {
+	e.preventDefault();
+		$(this).toggleClass("active");
+		if ($(this).siblings().find(".item-service-unit").is(":hidden")) {
+			$(this).siblings().find(".item-service-unit:nth-child(n+4)").slideDown(200);
+			$(this).find("span").html("Скрыть");
+		} else {
+			$(this).siblings().find(".item-service-unit:nth-child(n+4)").slideUp(200);
+			$(this).find("span").html("Смотреть еще");
+		}
+		
+	});
 
 	//кнопка sandwich
 	$(".btn_nav").click(function() {
