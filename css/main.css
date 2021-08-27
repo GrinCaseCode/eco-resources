@@ -1843,3 +1843,6 @@ border-radius: 15px;
 .fancybox-inner {
 	overflow: visible !important;
 }
+.billbord-mob {
+	display: none;
+}
