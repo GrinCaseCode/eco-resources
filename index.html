@@ -18,13 +18,13 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
 	<div class="wrapper">
- 
+
 		<header class="header default">
 			<div class="header-top">
 				<div class="container">
@@ -43,7 +43,7 @@
 			<div class="container">
 				<div class="header-bottom">
 					<a href="#" class="logo">
-						<img src="img/logo.png" alt="alt">
+						<img src="img/logo.svg" alt="alt">
 					</a>
 					<div class="header-bottom__content">
 						<div class="header-bottom__top">
@@ -56,14 +56,24 @@
 									<i class="fab fa-whatsapp"></i>
 								</a>
 								<a href="tel:+79880561243" class="phone-main">+7 (988) 056-12-43</a>
-								<a href="#" class="btn-phone">
+								<a href="#callback" class="btn-phone fancybox">
 									<i class="fab fa-whatsapp"></i>
 								</a>
 							</div>
 						</div>
 						<ul class="menu">
 							<li><a href="#">Демонтажные работы</a></li>
-							<li><a href="#">Вывоз строительного мусора</a></li>
+							<li>
+								<a href="#">Вывоз строительного мусора</a>
+								<ul>
+									<li><a href="#">Вывоз мусора, штукатурки и гипсокартона</a></li>
+									<li><a href="#">Вывоз мусора (кирпичный бой)</a></li>
+									<li><a href="#">Вывоз деревьев</a></li>
+									<li><a href="#">Вывоз боя стекла</a></li>
+									<li><a href="#">Вывоз пластика</a></li>
+									<li><a href="#">Вывоз промышленных объектов</a></li>
+								</ul>
+							</li>
 							<li><a href="#">Вывоз мусора контейнером</a></li>
 							<li><a href="#">Вывоз промышленных отходов</a></li>
 							<li><a href="#">Прочие услуги</a></li>
@@ -87,7 +97,17 @@
 					<li><a href="#">Автопарк</a></li>
 					<li><a href="#">Документация</a></li>
 					<li><a href="#">Демонтажные работы</a></li>
-					<li><a href="#">Вывоз строительного мусора</a></li>
+					<li class="menu__haschild">
+						<a href="#">Вывоз строительного мусора</a>
+						<ul>
+							<li><a href="#">Вывоз мусора, штукатурки и гипсокартона</a></li>
+							<li><a href="#">Вывоз мусора (кирпичный бой)</a></li>
+							<li><a href="#">Вывоз деревьев</a></li>
+							<li><a href="#">Вывоз боя стекла</a></li>
+							<li><a href="#">Вывоз пластика</a></li>
+							<li><a href="#">Вывоз промышленных объектов</a></li>
+						</ul>
+					</li>
 					<li><a href="#">Вывоз мусора контейнером</a></li>
 					<li><a href="#">Вывоз промышленных отходов</a></li>
 					<li><a href="#">Прочие услуги</a></li>
@@ -98,7 +118,7 @@
 						<i class="fab fa-whatsapp"></i>
 					</a>
 					<a href="tel:+79880561243" class="phone-main">+7 (988) 056-12-43</a>
-					<a href="#" class="btn-phone">
+					<a href="#callback" class="btn-phone fancybox">
 						<i class="fab fa-whatsapp"></i>
 					</a>
 				</div>
@@ -107,12 +127,12 @@
 				<br>
 				<p>г. Симферополь, ул. Кирова, 29А, оф. 412</p>
 			</div>
-		</header>
-
-		<div class="billbord">
 			<div class="billbord__leaves">
 				<img src="img/leaves.png" alt="alt">
 			</div>
+		</header>
+
+		<div class="billbord">
 			<div class="container">
 				<div class="billbord__content">
 					<div class="billbord__left">
@@ -126,6 +146,9 @@
 						<strong>500</strong>
 						<p>руб/м<sup>3</sup></p>
 					</div>
+				</div>
+				<div class="billbord-mob">
+					<img src="img/billbord_mob.jpg" alt="alt">
 				</div>
 				<div class="descr-form">Оставьте свой номер и мы рассчитаем для вас стоимость всех работ!</div>
 				<form>
@@ -656,7 +679,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="item-step">
 							<div class="item-step__icon">
-								<img src="img/ic_step1.png" alt="alt">
+								<img src="img/ic_step1.svg" alt="alt">
 							</div>
 							<div class="item-step__title"><span>01.</span> Подача заявки</div>
 							<p>Позвоните по номеру <a href="tel:+79880561243"><strong>+7 (988) 056-12-43</strong></a>, оставьте заявку на сайте или обратить в наш магазин.</p>
@@ -665,7 +688,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="item-step">
 							<div class="item-step__icon">
-								<img src="img/ic_step2.png" alt="alt">
+								<img src="img/ic_step2.svg" alt="alt">
 							</div>
 							<div class="item-step__title"><span>02.</span> Подбор техники</div>
 							<p>На основании представленных данных, подбираем необходимую спецтехнику</p>
@@ -674,7 +697,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="item-step">
 							<div class="item-step__icon">
-								<img src="img/ic_step3.png" alt="alt">
+								<img src="img/ic_step3.svg" alt="alt">
 							</div>
 							<div class="item-step__title"><span>03.</span> Заключение договора</div>
 							<p>Заключаем договор, с указанием прав и обязанностей сторон</p>
@@ -683,7 +706,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="item-step">
 							<div class="item-step__icon">
-								<img src="img/ic_step4.png" alt="alt">
+								<img src="img/ic_step4.svg" alt="alt">
 							</div>
 							<div class="item-step__title"><span>04.</span> Аванс</div>
 							<p>Вы перечисляете авансовый платеж, если он предусмотрен договором </p>
@@ -692,7 +715,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="item-step">
 							<div class="item-step__icon">
-								<img src="img/ic_step5.png" alt="alt">
+								<img src="img/ic_step5.svg" alt="alt">
 							</div>
 							<div class="item-step__title"><span>05.</span> Выезд техники</div>
 							<p> К вам на объект выезжает машина и забирает мусор, либо доставляет контейнер</p>
@@ -701,7 +724,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="item-step">
 							<div class="item-step__icon">
-								<img src="img/ic_step6.png" alt="alt">
+								<img src="img/ic_step6.svg" alt="alt">
 							</div>
 							<div class="item-step__title"><span>06.</span> Вторая часть платежа</div>
 							<p>Заключаем договор, с указанием прав и обязанностей сторон</p>
@@ -1452,7 +1475,7 @@
 				<div class="row">
 					<div class="col-lg-2">
 						<a href="#" class="logo">
-							<img src="img/logo2.png" alt="alt">
+							<img src="img/logo2.svg" alt="alt">
 						</a>
 						<div class="footer__contacts">
 							<strong>Телефон</strong>
@@ -1558,7 +1581,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js"></script>
+<script src="js/common.js?ver=1.2"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
 	$(document).ready(function() {
@@ -1586,7 +1609,7 @@
 			myMap.geoObjects.add(myPlacemark1);
 		}
 	});
-</script>
+</script> 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
