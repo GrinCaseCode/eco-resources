@@ -42,11 +42,16 @@ $(".item-question__head").click(function() {
 		
 	});
 
-	$(".menu-mobile a").click(function() {
+$(".menu-mobile li:not('.menu__haschild') a").click(function() {
 		$(".menu-mobile").slideUp(200);
 		$(".sandwich").removeClass("active");
 		$(".header").removeClass("active");
 	});
+
+	$(".menu-mobile .menu__haschild a").click(function() {
+		$(this).siblings("ul").slideToggle(200);
+	});
+
 
 
 	{
