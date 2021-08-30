@@ -773,6 +773,11 @@
 .row_services > div {
 	margin-top: 25px;
 }
+.avtopark .title-section,
+.team .title-section {
+	padding-bottom: 15px;
+}
+
 }
 @media only screen and (max-width : 570px) {
 	.billbord-mob {
