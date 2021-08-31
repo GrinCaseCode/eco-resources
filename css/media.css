@@ -1026,6 +1026,9 @@
 .row_inner > div {
 	margin-top: 30px;
 }
+.row_inner .item-service__buttons .btn-main {
+	padding: 0 25px;
+}
 }
 
 /* Custom, iPhone Retina */
