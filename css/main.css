@@ -2103,3 +2103,64 @@ line-height: 21px;
 	font-size: 18px;
 	margin-top: 4px;
 }
+.types-page ~ .types {
+	padding-top: 0;
+	padding-bottom: 30px;
+	background-color: transparent;
+}
+.tarifs-wrap {
+	padding-top: 70px;
+}
+.types .table-wrap tbody td:nth-child(2) {
+	padding-left: 140px;
+}
+.tarifs-wrap .title-section {
+	padding-bottom: 25px;
+}
+.service-page .title-section,
+.team-page .title-section,
+.contacts-page .title-section,
+.avtopark-page .title-section,
+.types-page .title-section {
+	text-transform: uppercase;
+}
+.item-service__price {
+	font-size: 24px;
+line-height: 21px;
+font-weight: 700;
+}
+.item-service__name {
+	font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 15px;
+color: #373c3d;
+	display: block;
+}
+.row_inner .item-service__image {
+	height: 295px;
+}
+.row_inner .item-service {
+	min-height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.row_inner > div {
+	margin-top: 35px;
+}
+.row_inner .item-service__content {
+	flex: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 35px;
+	display: flex;
+	flex-direction: column;
+}
+.row_inner .item-service__buttons {
+	margin-top: auto;
+}
+.services-inner {
+	padding-bottom: 55px;
+}

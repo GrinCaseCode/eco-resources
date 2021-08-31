@@ -117,6 +117,15 @@
 .row_services .item-service__title {
     font-size: 17px;
 }
+.item-service__price {
+    font-size: 20px;
+    }
+    .item-service__name {
+    font-size: 21px;
+}
+.row_inner .item-service__image {
+    height: 244px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -330,6 +339,24 @@
 .item-service-unit strong {
     font-size: 16px;
 }
+.types .table-wrap tbody td:nth-child(2) {
+	padding-left: 0;
+}
+.tarifs-wrap {
+	padding-top: 40px;
+}
+.tarifs-wrap .title-section {
+	padding-bottom: 15px;
+}
+.item-service__name {
+    font-size: 17px;
+    }
+    .services-inner {
+    	padding-bottom: 0;
+    }
+    .row_inner .item-service__image {
+    height: 208px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -531,6 +558,12 @@
 .row_services .item-service__title {
     font-size: 16px;
     line-height: 23px;
+}
+.types-page ~ .types {
+	padding-bottom: 0;
+}
+.item-service__price {
+    font-size: 15px;
 }
 }
 
@@ -777,7 +810,15 @@
 .team .title-section {
 	padding-bottom: 15px;
 }
-
+.types + .calculator {
+	padding-top: 30px;
+}
+.item-service__price {
+    font-size: 16px;
+}
+.row_inner .item-service__content {
+	padding-bottom: 30px;
+}
 }
 @media only screen and (max-width : 570px) {
 	.billbord-mob {
@@ -971,6 +1012,19 @@
 }
 .service + .regions {
     padding-bottom: 40px;
+}
+.row_inner .item-service__content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.item-service__price {
+    font-size: 14px;
+}
+.item-service__name {
+	margin-bottom: 0;
+}
+.row_inner > div {
+	margin-top: 30px;
 }
 }
 
