@@ -39,17 +39,17 @@
 		right: -7px;
 	}
 	.about-block p {
-    margin-bottom: 15px; 
-}
-.service  .calculator-block .title-section {
-	font-size: 33px;
-}
-.service .calculator-block {
-    background-position: right -163% bottom 186%;
-}
-.row_services .item-service__title {
-	font-size: 19px;
-}
+		margin-bottom: 15px; 
+	}
+	.service  .calculator-block .title-section {
+		font-size: 33px;
+	}
+	.service .calculator-block {
+		background-position: right -163% bottom 186%;
+	}
+	.row_services .item-service__title {
+		font-size: 19px;
+	}
 }
 @media only screen and (max-width : 1350px) {
 	.item-service__title {
@@ -112,20 +112,20 @@
 	.service .calculator-block {
 		padding-left: 25px;
 		padding-right: 25px;
-	background-position: right -219% bottom 186%;
-}
-.row_services .item-service__title {
-    font-size: 17px;
-}
-.item-service__price {
-    font-size: 20px;
-    }
-    .item-service__name {
-    font-size: 21px;
-}
-.row_inner .item-service__image {
-    height: 244px;
-}
+		background-position: right -219% bottom 186%;
+	}
+	.row_services .item-service__title {
+		font-size: 17px;
+	}
+	.item-service__price {
+		font-size: 20px;
+	}
+	.item-service__name {
+		font-size: 21px;
+	}
+	.row_inner .item-service__image {
+		height: 244px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -310,53 +310,53 @@
 		padding-top: 195px;
 	}
 	.title-block {
-    font-size: 20px;
-}
-.service-block .link-page {
-	margin-top: 20px;
-}
-.item-service__buttons .btn-main {
-	margin-top: 20px;
-}
-.service .calculator-block {
-	background-image: none;
-}
-.service .calculator-block .row {
-	align-items: flex-end;
-}
-.header.fixed {
-	padding: 0;
-}
-.item-service-unit {
-    font-size: 13px;
-    line-height: 19px;
-    margin-bottom: 14px;
-}
-.row_services .item-service__title {
-    font-size: 14px;
-    line-height: 20px;
-}
-.item-service-unit strong {
-    font-size: 16px;
-}
-.types .table-wrap tbody td:nth-child(2) {
-	padding-left: 0;
-}
-.tarifs-wrap {
-	padding-top: 40px;
-}
-.tarifs-wrap .title-section {
-	padding-bottom: 15px;
-}
-.item-service__name {
-    font-size: 17px;
-    }
-    .services-inner {
-    	padding-bottom: 0;
-    }
-    .row_inner .item-service__image {
-    height: 208px;
-}
+		font-size: 20px;
+	}
+	.service-block .link-page {
+		margin-top: 20px;
+	}
+	.item-service__buttons .btn-main {
+		margin-top: 20px;
+	}
+	.service .calculator-block {
+		background-image: none;
+	}
+	.service .calculator-block .row {
+		align-items: flex-end;
+	}
+	.header.fixed {
+		padding: 0;
+	}
+	.item-service-unit {
+		font-size: 13px;
+		line-height: 19px;
+		margin-bottom: 14px;
+	}
+	.row_services .item-service__title {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.item-service-unit strong {
+		font-size: 16px;
+	}
+	.types .table-wrap tbody td:nth-child(2) {
+		padding-left: 0;
+	}
+	.tarifs-wrap {
+		padding-top: 40px;
+	}
+	.tarifs-wrap .title-section {
+		padding-bottom: 15px;
+	}
+	.item-service__name {
+		font-size: 17px;
+	}
+	.services-inner {
+		padding-bottom: 0;
+	}
+	.row_inner .item-service__image {
+		height: 208px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -538,33 +538,63 @@
 		padding-right: 25px;
 	}
 	.table-wrap table {
-    font-size: 16px;
-}
-.table-wrap td {
-	padding: 15px 0;
-}
-.sidebar-services {
-	padding-top: 30px;
-}
-.item-service__buttons .btn-main {
-	margin-top: 0;
-}
-.service + .regions {
-	padding-top: 20px;
-}
-.bottom-ask {
-	padding-bottom: 50px;
-}
-.row_services .item-service__title {
-    font-size: 16px;
-    line-height: 23px;
-}
-.types-page ~ .types {
-	padding-bottom: 0;
-}
-.item-service__price {
-    font-size: 15px;
-}
+		font-size: 16px;
+	}
+	.table-wrap td {
+		padding: 15px 0;
+	}
+	.sidebar-services {
+		padding-top: 30px;
+	}
+	.item-service__buttons .btn-main {
+		margin-top: 0;
+	}
+	.service + .regions {
+		padding-top: 20px;
+	}
+	.bottom-ask {
+		padding-bottom: 50px;
+	}
+	.row_services .item-service__title {
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.types-page ~ .types {
+		padding-bottom: 0;
+	}
+	.item-service__price {
+		font-size: 15px;
+	}
+
+	.billbord {
+		background-position: center;
+	}
+	.header-bottom {
+		justify-content: space-between;
+	}
+	.btn_nav {
+		margin-left: 0;
+	}
+	.phone-mob {
+		display: inline-block;
+		font-size: 20px;
+		margin-right: 10px;
+		margin-left: -50px;
+		position: relative;
+		top: 4px;
+		color: #09aba6;
+	}
+	.menu-mobile_menu {
+		color: #fff;
+		background-color: #09aba6;
+	}
+	.menu-mobile_menu * {
+		color: #fff !important;
+		border-color: #fff !important;
+	}
+	.menu-mobile_menu li.menu__haschild > a::after {
+		color: #fff;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -779,56 +809,144 @@
 		padding-bottom: 0;
 	}
 	.table-wrap table {
-    font-size: 14px;
-}
-.service .calculator-block {
-	margin-bottom: 50px;
-}
-.service-block__content {
-    padding: 24px 20px;
-}
-.row_services .item-service {
-	display: block;
-	min-height: initial;
-}
-.row_services .item-service__title br {
-	display: none;
-}
-.item-service-unit {
-    font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 17px;
-}
-.row_services .item-service__title {
-    font-size: 18px;
-    line-height: 26px;
-}
-.row_services > div {
-	margin-top: 25px;
-}
-.avtopark .title-section,
-.team .title-section {
-	padding-bottom: 15px;
-}
-.types + .calculator {
-	padding-top: 30px;
-}
-.item-service__price {
-    font-size: 16px;
-}
-.row_inner .item-service__content {
-	padding-bottom: 30px;
-}
+		font-size: 14px;
+	}
+	.service .calculator-block {
+		margin-bottom: 50px;
+	}
+	.service-block__content {
+		padding: 24px 20px;
+	}
+	.row_services .item-service {
+		display: block;
+		min-height: initial;
+	}
+	.row_services .item-service__title br {
+		display: none;
+	}
+	.item-service-unit {
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 17px;
+	}
+	.row_services .item-service__title {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.row_services > div {
+		margin-top: 25px;
+	}
+	.avtopark .title-section,
+	.team .title-section {
+		padding-bottom: 15px;
+	}
+	.types + .calculator {
+		padding-top: 30px;
+	}
+	.item-service__price {
+		font-size: 16px;
+	}
+	.row_inner .item-service__content {
+		padding-bottom: 30px;
+	}
+
+	.item-step {
+		padding-left: 60px;
+		box-shadow: 0px 0px 30px rgb(29 117 128 / 23%);
+	}
+	.row_steps .slick-track {
+		display: flex !important;
+	}
+	.row_steps .slick-slide {
+		padding: 30px 15px;
+		display: flex;
+		height: inherit !important;
+	}
+	.row_steps  {
+		margin: 0 -15px;
+	}
+	.item-step__icon {
+		left: -30px;
+	}
+	.steps .descr-section {
+		padding-bottom: 0;
+	}
+	.tabs_types {
+		margin-top: 20px;
+		display: flex;
+		overflow: auto;
+		flex-wrap: nowrap;
+		background-color: #fff;
+		margin-right: -15px;
+		white-space: nowrap;
+	}
+	.tabs_types a {
+		padding: 5px 17px;
+		border: none;
+		height: auto;
+	}
+	.tabs_types::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.tabs_types::-webkit-scrollbar:vertical {
+		width: 0px;
+	}
+	.tabs_types::-webkit-scrollbar:horizontal {
+		height: 0px;
+	}
+	.tabs_types::-webkit-scrollbar-thumb {
+		background-color: transparent;
+		border-radius: 10px;
+	}
+	.tabs_types::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: transparent;
+	}
 }
 @media only screen and (max-width : 570px) {
 	.billbord-mob {
-		margin: 15px 0;
+		margin: 15px -15px;
 		display: block;
 	}
-	.billbord-mob img {
+	.billbord-mob img { 
 		max-width: 100%;
 		height: auto;
 	}
+	.billbord {
+		background-color: #e6f4ff;
+		background-image: none;
+		background-image: linear-gradient(0.0deg, #b9b4b4 -25%, rgba(185,180,180,0.0) 65%, rgba(185,180,180,0.0) 80%);
+	}
+	.billbord__descr {
+		display: none;
+	}
+	.billbord .descr-form {
+		display: none;
+	}
+	.billbord__list {
+		display: block;
+		margin-top: -20px;
+		margin-bottom: 15px;
+	}
+	.billbord__list li {
+		padding-left: 30px;
+		margin-bottom: 10px;
+		padding-top: 3px;
+		position: relative;
+	}
+	.billbord__list li::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-image: url(../img/check_active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -983,49 +1101,53 @@
 		font-size: 22px;
 	}
 	.service-block__content {
-    padding: 20px 15px;
-}
-.service-block .title-big {
-	padding-bottom: 15px;
-}
-.service .calculator-block .title-section {
-    font-size: 25px;
-}
-.table-wrap table {
-    font-size: 12px;
-}
-.table-wrap tbody td sup {
-    font-size: 8px;
-}
-.item-service__content {
-    padding: 30px 16px;
-    padding-top: 0;
-}
-.item-service__buttons .btn-main {
-    padding: 0 16px;
-}
-.sidebar-services .item-service {
-	margin-bottom: 25px;
-}
-.bottom-ask {
-	padding-bottom: 0;
-} 
-.service + .regions {
-    padding-bottom: 40px;
-}
-.row_inner .item-service__content {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.item-service__price {
-    font-size: 14px;
-}
-.row_inner > div {
-	margin-top: 30px;
-}
-.row_inner .item-service__buttons .btn-main {
-	padding: 0 25px;
-}
+		padding: 20px 15px;
+	}
+	.service-block .title-big {
+		padding-bottom: 15px;
+	}
+	.service .calculator-block .title-section {
+		font-size: 25px;
+	}
+	.table-wrap table {
+		font-size: 12px;
+	}
+	.table-wrap tbody td sup {
+		font-size: 8px;
+	}
+	.item-service__content {
+		padding: 30px 16px;
+		padding-top: 0;
+	}
+	.item-service__buttons .btn-main {
+		padding: 0 16px;
+	}
+	.sidebar-services .item-service {
+		margin-bottom: 25px;
+	}
+	.bottom-ask {
+		padding-bottom: 0;
+	} 
+	.service + .regions {
+		padding-bottom: 40px;
+	}
+	.row_inner .item-service__content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.item-service__price {
+		font-size: 14px;
+	}
+	.row_inner > div {
+		margin-top: 30px;
+	}
+	.row_inner .item-service__buttons .btn-main {
+		padding: 0 25px;
+	}
+
+	.steps .descr-section {
+		padding-bottom: 0px;
+	}
 }
 
 /* Custom, iPhone Retina */

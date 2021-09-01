@@ -42,25 +42,66 @@ $(".more-services").click(function(e) {
 	});
 
 	//кнопка sandwich
-	$(".btn_nav").click(function() {
+	$(".btn_nav-nav").click(function() {
+		$(".menu-mobile_menu").slideUp(200);
 		$(".sandwich").toggleClass("active");
-		if ($(".menu-mobile").is(":hidden")) {
-			$(".menu-mobile").slideDown(200);
+		if ($(".menu-mobile_nav").is(":hidden")) {
+			$(".menu-mobile_nav").slideDown(200);
 			$(".header").addClass("active");
 		} else {
-			$(".menu-mobile").slideUp(200);
+			$(".menu-mobile_nav").slideUp(200);
 			$(".header").removeClass("active");
 		}
-		
 	});
 
-$(".menu-mobile li:not('.menu__haschild') a").click(function() {
-		$(".menu-mobile").slideUp(200);
+	$(".menu-mobile_nav a").click(function() {
+		$(".menu-mobile_nav").slideUp(200);
 		$(".sandwich").removeClass("active");
 		$(".header").removeClass("active");
 	});
 
-	$(".menu-mobile .menu__haschild a").click(function() {
+	$(".btn_nav-menu").click(function() {
+		$(".menu-mobile_nav").slideUp(200);
+		$(".sandwich").removeClass("active");
+		if ($(".menu-mobile_menu").is(":hidden")) {
+			$(".menu-mobile_menu").slideDown(200);
+			$(".header").addClass("active");
+		} else {
+			$(".menu-mobile_menu").slideUp(200);
+			$(".header").removeClass("active");
+		}
+	});
+
+	$('.row_steps').slick({
+		arrows: false,
+		dots: true,
+		infinite: false,
+		slidesToShow: 1,
+		touchThreshold: 1000,
+		focusOnSelect: false,
+		slidesToScroll: 1,
+			mobileFirst: true,
+		responsive: [
+ 	{
+ 		breakpoint: 768, 
+ 		settings: 'unslick'
+ 	}
+ 	]
+ });
+
+	$(window).resize(function() {
+$('.row_steps').slick('refresh');
+  });
+
+
+
+$(".menu-mobile_menu li:not('.menu__haschild') a").click(function() {
+		$(".menu-mobile_menu").slideUp(200);
+		$(".sandwich").removeClass("active");
+		$(".header").removeClass("active");
+	});
+
+	$(".menu-mobile_menu .menu__haschild a").click(function() {
 		$(this).siblings("ul").slideToggle(200);
 	});
 
@@ -162,6 +203,7 @@ $(".menu-mobile li:not('.menu__haschild') a").click(function() {
 			settings: {
 				dots: true,
 				slidesToShow:3,
+				slidesToScroll: 3,
 				arrows: false,
 			}
 		},
@@ -170,6 +212,7 @@ $(".menu-mobile li:not('.menu__haschild') a").click(function() {
 			settings: {
 				dots: true,
 				slidesToShow:2,
+				slidesToScroll: 2,
 				arrows: false,
 			}
 		}
