@@ -2223,7 +2223,9 @@ select {
 .phone-mob {
 	display: none;
 }
-
+.tabs_types {
+	display: none;
+}
 .billbord__list {
 	display: none;
 }

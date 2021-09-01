@@ -871,7 +871,7 @@
 	.steps .descr-section {
 		padding-bottom: 0;
 	}
-	.tabs_types {
+	.tabs {
 		margin-top: 20px;
 		display: flex;
 		overflow: auto;
@@ -880,27 +880,30 @@
 		margin-right: -15px;
 		white-space: nowrap;
 	}
-	.tabs_types a {
-		padding: 5px 17px;
+	.tabs a {
+		padding: 10px 17px;
 		border: none;
 		height: auto;
 	}
-	.tabs_types::-webkit-scrollbar {
+	.tabs::-webkit-scrollbar {
 		-webkit-appearance: none;
 	}
-	.tabs_types::-webkit-scrollbar:vertical {
+	.tabs::-webkit-scrollbar:vertical {
 		width: 0px;
 	}
-	.tabs_types::-webkit-scrollbar:horizontal {
+	.tabs::-webkit-scrollbar:horizontal {
 		height: 0px;
 	}
-	.tabs_types::-webkit-scrollbar-thumb {
+	.tabs::-webkit-scrollbar-thumb {
 		background-color: transparent;
 		border-radius: 10px;
 	}
-	.tabs_types::-webkit-scrollbar-track {
+	.tabs::-webkit-scrollbar-track {
 		border-radius: 10px;
 		background-color: transparent;
+	}
+	.tabs li {
+		width: initial;
 	}
 }
 @media only screen and (max-width : 570px) {
@@ -1178,7 +1181,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+.row_types .tab-pane {
+	display: block !important;
+}
 }
 
 /* Medium Devices, Desktops */
