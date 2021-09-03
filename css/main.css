@@ -2232,3 +2232,63 @@ select {
 .services__leaves {
 	pointer-events: none;
 }
+.container-block {
+	padding: 40px 44px;
+	position: relative;
+	z-index: 1;
+	border-radius: 15px;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 15px 0px rgba(29,117,128,0.23);
+	min-height: 100%;
+	transition: all 0.3s;
+	font-size: 14px;
+line-height: 21px;
+	display: flex;
+	flex-direction: column;
+}
+.container-block::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 13px;
+	left: 13px;
+	right: 13px;
+	bottom: 13px;
+	box-shadow: 0px 10px 10px 0px rgba(29,117,128,0.1);
+	border-radius: 15px;
+	z-index: -1;
+}
+.container-size {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 14px;
+}
+.container-size strong {
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+}
+.container-block p {
+	margin-bottom: 20px;
+}
+.container-block .btn-main {
+	width: 240px;
+	max-width: 100%;
+}
+.container-block .line-prices {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.container-block img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.container-block .line-feature {
+	margin-bottom: 9px;
+}
+.section-container {
+	padding-bottom: 45px;
+} 

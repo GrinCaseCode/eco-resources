@@ -357,6 +357,12 @@
 	.row_inner .item-service__image {
 		height: 208px;
 	}
+	.container-block .btn-main {
+		width: 150px;
+	}
+	.section-container {
+		padding-bottom: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -905,6 +911,9 @@
 	.tabs li {
 		width: initial;
 	}
+	.container-block {
+    padding: 24px 29px;
+}
 }
 @media only screen and (max-width : 570px) {
 	.billbord-mob {
@@ -1140,7 +1149,7 @@
 	}
 	.item-service__price {
 		font-size: 14px;
-	}
+	} 
 	.row_inner > div {
 		margin-top: 30px;
 	}
@@ -1150,6 +1159,20 @@
 
 	.steps .descr-section {
 		padding-bottom: 0px;
+	}
+	.container-block .line-prices {
+		margin: 20px 0;
+		flex-wrap: wrap;
+	}
+	.container-block .btn-main {
+		width: 220px;
+		margin-top: 20px;
+	}
+	.container-block img {
+		margin-top: 0;
+	}
+	.container-block p {
+		margin-bottom: 15px;
 	}
 }
 
