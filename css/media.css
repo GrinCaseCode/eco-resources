@@ -601,6 +601,12 @@
 	.menu-mobile_menu li.menu__haschild > a::after {
 		color: #fff;
 	}
+	.container-block .row > div:nth-child(2) {
+		order: -1;
+	}
+	.container-block img {
+		margin-bottom: 15px;
+	}
 }
 
 /* Small Devices, Tablets */
